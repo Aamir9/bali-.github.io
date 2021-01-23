@@ -1,0 +1,126 @@
+.navbar{
+	background-color:rgb(0,0,0,0);	
+}
+.nav-link{
+	color:gray;
+}
+.nav-link:hover{
+	color: #ffb400!important;
+}
+.navbar img{
+	height:70px;
+	width:200px;
+	position: relative;
+	left:5%;
+
+}
+.navbar i{
+	color:#0C2D4D!important;
+}
+.bgimg{
+	background-image: url("../image/bg.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+}
+.headerset{
+	height:100vh;
+	position: relative;
+	background-color: rgb(0,0,0,0);
+}
+.headerset h2{
+	font-size: 70px;
+	font-weight: bold;
+	position:absolute;
+    color:black;
+	top:40%;
+	left:33%;
+	text-align: center;
+}
+.headerset button{
+	position: absolute;
+	top:60%;
+	left:48%;
+	
+}
+
+/*======
+awesome travel
+======*/
+.awesome{
+	padding-top:70px;
+	text-align: center;
+	padding-bottom: 70px;
+    background: #f7f7f7;
+}
+
+
+
+/*======
+End awesome travel
+======*/
+.footer{
+	background-color:#f7f7f7!important;
+	height:80px;
+	text-align: center;
+}
+.footer span{
+	position: relative;
+	font-size: 20px;
+	color:#000000;
+	top:32%;
+}
+/*Responsive*/
+@media screen and (max-width:1024px) {
+     .navbar img{
+	left:1%;
+}
+    .headerset h2{
+    font-size:50px;
+	left:34%;
+}
+  .headerset button{
+	left:46%;
+}
+
+}
+@media screen and (max-width:768px) {
+     .navbar img{
+	    display: none;
+}
+.nav-link{
+      font-size: 14px;
+}
+    .headerset h2{
+	left:30%;
+}
+  .headerset button{
+	left:44%;
+}
+.popular h4{
+      font-size: 20px;
+}
+}
+@media screen and (max-width:414px) {
+	.bgimg{
+	height:50vh;
+}
+.headerset{
+	height:50vh;
+}
+
+ 
+    .headerset h2{
+	left:13%;
+}
+  .headerset button{
+	left:39%;
+	top:66%;
+}
+.popular h4{
+      font-size: 20px;
+}
+}
+	
